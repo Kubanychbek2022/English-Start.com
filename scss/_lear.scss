@@ -1,0 +1,47 @@
+@import "overlay";
+
+.aim {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.main__box select {
+  color: black;
+}
+
+.main__box select {
+  color: black;
+}
+
+.main__section {
+  border: 2px solid red;
+}
+
+.box {
+  margin-right: 28px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid grey;
+}
+
+.footer {
+  color: white;
+  margin-top: 35px;
+  padding: 20px 0;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 422px) {
+  .main__box select {
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+
+
+
